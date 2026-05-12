@@ -9,12 +9,6 @@ pipeline {
 
     }
 
-    tools {
-
-        gradle 'Gradle'
-
-    }
-
     stages {
 
         stage('Checkout') {
